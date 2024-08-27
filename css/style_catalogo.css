@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+/* Cabeçalho */
+
+header{
+    background-color: #4B0082;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+
+/* Grid de produtos */
+
+.container {
+    background-color: #9370DB;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.catalago-produto{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex_box{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 29%;
+    margin: 1% 1%;
+    display: inline-block;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.produto-imagem{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+#img-1{
+    background-image: url('../img/fone1.jpg');
+}
+#img-2{
+    background-image: url('../img/fone2.jpg');
+}
+#img-3{
+    background-image: url('../img/fone3.png');
+}
+#img-4{
+    background-image: url('../img/fone4.png');
+}
+#img-5{
+    background-image: url('../img/fone5.jpg');
+}
+#img-6{
+    background-image: url('../img/fone6.jpg');
+}
+
+h3{
+    margin-bottom: 10px;
+    color: #4B0082;
+    font-size: 24px;
+    border-left: 2px solid #9400D3;
+    padding-left: 8px;
+}
+
+.card p{
+    margin-bottom: 10px;
+}
+.bold {
+    font-weight: bold;
+}
+.btn{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #4B0082;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.bnt:hover {
+ background-color: #9400D3;
+}
+
+footer{
+    background-color: #4B0082;
+    text-align: center;
+    padding: 80px;
+    color: #fff;
+}
